@@ -35,8 +35,8 @@
     padding: 10px;
     border-radius: 10px;
 }
-@media screen and (max-width: 800px){
-    .container-card h1{
-        font: 12px;
+@media screen and (max-width:800px) {
+    .container-card {
+        width: 90%;
     }
 }
