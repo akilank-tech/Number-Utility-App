@@ -59,7 +59,7 @@
 .reset-btn{
     background-color: #475569;
 }
-@media screen and(max-width:800px){
+@media screen and (max-width:800px){
  .container-card{
     width: 90%;
  }   
