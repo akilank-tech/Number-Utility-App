@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.home,.container.home-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    background-color: #f1f5f9;
+    border-radius: 20px;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.home-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.home-card h1{
+    color: purple;
+}
+.home-card p{
+    margin-top: 20px;
+}
+.link1,.link2{
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 200px;
+}
+.link1{
+    background-color: purple;
+}
+.link2{
+    background-color: purple;
+}

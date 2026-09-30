@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.random{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.random,.container,.container-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #f1f5f9;
+    border-radius: 20px;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.container-card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+   
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 800px){
+    .container-card h1{
+        font: 12px;
+    }
+}
