@@ -9,7 +9,7 @@ const Home=()=>{
             <h1>Number Utility App</h1>
             <p>Choose your App</p>
             <Link to="/random" className="link1">Random Number</Link><br/>
-            <Link to="/counter" className="link2">Number Count</Link>
+            <Link to="/counter" className="link2">Number Counter</Link>
             </div>
             </div>
         </div>
