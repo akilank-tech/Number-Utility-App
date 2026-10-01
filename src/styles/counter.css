@@ -4,23 +4,26 @@
 }
 
 .counter{
-    margin-top: 20px;
-    margin-bottom: 20px;
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.counter,.container,.btn{
+.container,.btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container{
-    background-color: #f1f5f9;
+    background-color: #065F46;
     border-radius: 20px;
     width: 50%;
     padding: 30px;
     text-align: center;
 }
 .container-card{
+    width: 80%;
     background-color: white;
     border-radius: 20px;
     padding: 30px;
@@ -28,11 +31,10 @@
 
 }
 .container-card h1{
-    color: rgb(243, 114, 157);
+    color: #065F46;
     margin-top: 10px;
 }
 .container-card h2{
-    color: rgb(250, 25, 100);
     margin-top: 10px;
 }
 .container-card p{
@@ -49,6 +51,16 @@
     border-style: none;
     padding: 10px;
     color: white;
+    cursor:pointer;
+}
+.number.increment{
+    color:#0ba543
+}
+.number.decrement{
+    color: red;
+}
+.number.zero{
+    color: #475569;
 }
 .incre-btn{
     background-color: #0ba543;
@@ -60,7 +72,13 @@
     background-color: #475569;
 }
 @media screen and (max-width:800px){
- .container-card{
-    width: 90%;
- }   
+ 
+  h1{
+        font-size: 25px;
+    }
 }
+@media screen and (max-width: 480px) {
+    h1{
+        font-size: 20px;
+    }
+}   
