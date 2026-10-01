@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 .random {
@@ -50,14 +51,32 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
-    
-     h1{
-        font-size: 25px;
+@media screen and (max-width: 800px) {
+    .container-card h1{
+        font-size: 18px;
+    }
+    *{
+        font-size: 12px
+    }
+    .button{
+        width: 150px;
+        padding: 10px;
     }
 }
-@media screen and (max-width: 480px) {
-    h1{
-        font-size: 20px;
+
+@media screen and (max-width: 600px) {
+    .container-card h1{
+        font-size: 12px;
+    }
+    *{
+        font-size: 8px;
+    }
+    .button{
+        width: 120px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .random{
+        min-height: 100svh;
     }
 }

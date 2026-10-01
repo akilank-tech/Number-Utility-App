@@ -17,7 +17,7 @@ const Random = () => {
                 {
                     num===null?<p style={{marginTop:"10px",color:"red"}}>No Number generated yet</p>:<p></p>
                 }
-                <button className="button" onClick={handleRandom}>Generate Random Number</button>
+                <button className="button" onClick={handleRandom}>Generate Random</button>
             </div>
         </div>
         </div>

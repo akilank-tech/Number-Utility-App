@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 }
 
 .home {
@@ -67,14 +68,33 @@
     color: #065F46;
 }
 
-@media screen and (max-width: 768px) {
-    
-    h1{
-        font-size: 25px;
+@media screen and (max-width: 800px) {
+    .home-card h1{
+        font-size: 18px;
+    }
+    *{
+        font-size: 12px
+    }
+    .link1,.link2{
+        width: 150px;
+        padding: 10px;
     }
 }
-@media screen and (max-width: 480px) {
-    h1{
-        font-size: 20px;
+
+@media screen and (max-width: 600px) {
+    .home-card h1{
+        font-size: 10px;
+    }
+    *{
+        font-size: 10px
+    }
+    .link1,.link2{
+        width: 130px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .home{
+        min-height: 100svh;
     }
 }
+
