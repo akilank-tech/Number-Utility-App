@@ -32,7 +32,7 @@
 
 .random-card {
     width: 80%;
-    height: 400px;
+    height: 300px;
     background-color: white;
     border-radius: 20px;
     padding: 30px;
@@ -43,12 +43,9 @@
     color:#065F46;
     margin-top:30px;
 }
-.random-card h2{
-    margin-top: 10px;
-}
 .button {
     width: 200px;
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: #D1FAE5;
     color: #065F46;
     border-style: none;
@@ -61,9 +58,7 @@
     .random-card h1{
         font-size: 20px;
     }
-    *{
-        font-size: 12px
-    }
+    
     .button{
         width: 190px;
         padding: 10px;
@@ -74,9 +69,7 @@
     .random-card h1{
         font-size: 15px;
     }
-    *{
-        font-size: 12px;
-    }
+   
     .button{
         width: 170px;
     }

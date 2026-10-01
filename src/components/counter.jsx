@@ -24,7 +24,7 @@ const Counter = () => {
                 <div className="counter-card">
                      <Link to="/"><i class="fa-solid fa-house"></i></Link>
                     <h1>Counter Application</h1>
-                    <h2 className={num === 0 ? "number zero" : `number ${action}`}>{num}</h2>
+                    <h1 className={num === 0 ? "number zero" : `number ${action}`}>{num}</h1>
                     {
                     num==0 ?<p style={{color: "red"}}>Minimum Limit Reach</p> :<p style={{color: "green"}}>Number Updated</p>
                     }

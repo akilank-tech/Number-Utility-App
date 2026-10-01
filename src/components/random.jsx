@@ -13,7 +13,7 @@ const Random = () => {
             <div className="random-card">
                  <Link to="/" className="home-link"><i class="fa-solid fa-house"></i></Link>
                 <h1>Random Number</h1>
-                <h2>{num}</h2>
+                <h1>{num}</h1>
                 {
                     num===null?<p style={{marginTop:"10px",color:"red"}}>No Number generated yet</p>:<p></p>
                 }
