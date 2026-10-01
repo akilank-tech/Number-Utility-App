@@ -12,23 +12,25 @@
 }
 
 
-.container,.home-card {
+.container-home,.home-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container {
+.container-home {
     background-color: #D1FAE5;
     border-radius: 20px;
-    width: 50%;
+    width: 80%;
+    height: 500px;
     padding: 30px;
     text-align: center;
 }
 
 .home-card {
     width: 80%;
+    height: 400px;
     background-color: white;
     border-radius: 20px;
     padding: 30px;
@@ -70,28 +72,24 @@
 
 @media screen and (max-width: 800px) {
     .home-card h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     *{
         font-size: 12px
     }
     .link1,.link2{
-        width: 150px;
+        width: 190px;
         padding: 10px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .home-card h1{
-        font-size: 10px;
+        font-size: 15px;
     }
-    *{
-        font-size: 10px
-    }
+   
     .link1,.link2{
-        width: 130px;
-        padding: 5px;
-        border-radius: 5px;
+        width: 150px;
     }
     .home{
         min-height: 100svh;

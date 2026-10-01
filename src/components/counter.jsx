@@ -20,8 +20,8 @@ const Counter = () => {
     }
     return (
         <div className="counter">
-            <div className="container">
-                <div className="container-card">
+            <div className="container-counter">
+                <div className="counter-card">
                      <Link to="/"><i class="fa-solid fa-house"></i></Link>
                     <h1>Counter Application</h1>
                     <h2 className={num === 0 ? "number zero" : `number ${action}`}>{num}</h2>

@@ -9,15 +9,15 @@ const Random = () => {
     }
     return (
         <div className="random">
-            <div className="container">
-            <div className="container-card">
+            <div className="container-random">
+            <div className="random-card">
                  <Link to="/" className="home-link"><i class="fa-solid fa-house"></i></Link>
                 <h1>Random Number</h1>
                 <h2>{num}</h2>
                 {
                     num===null?<p style={{marginTop:"10px",color:"red"}}>No Number generated yet</p>:<p></p>
                 }
-                <button className="button" onClick={handleRandom}>Generate Random</button>
+                <button className="button" onClick={handleRandom}>Generate Random Number</button>
             </div>
         </div>
         </div>

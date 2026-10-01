@@ -3,7 +3,7 @@ import '../styles/home.css'
 const Home=()=>{
     return(
         <div className="home">
-            <div className="container">
+            <div className="container-home">
             <div className="home-card">
             <h1>Number Utility App</h1>
             <p>Choose your App</p>

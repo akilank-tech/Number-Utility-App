@@ -10,35 +10,37 @@
     justify-content: center;
     align-items: center;
 }
-.container,.btn{
+.container-counter,.btn,.counter-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.container{
-    background-color: #065F46;
+.container-counter{
+    background-color: #D1FAE5;
     border-radius: 20px;
-    width: 50%;
+    width: 80%;
+    height: 500px;
     padding: 30px;
     text-align: center;
 }
-.container-card{
+.counter-card{
     width: 80%;
+    height: 400px;
     background-color: white;
     border-radius: 20px;
     padding: 30px;
     text-align: center;
 
 }
-.container-card h1{
+.counter-card h1{
     color: #065F46;
+    margin-top: 30px;
+}
+.counter-card h2{
     margin-top: 10px;
 }
-.container-card h2{
-    margin-top: 10px;
-}
-.container-card p{
+.counter-card p{
     margin-top: 10px;
 }
 .btn{
@@ -72,8 +74,8 @@
     background-color: #475569;
 }
 @media screen and (max-width: 800px) {
-    .container-card h1{
-        font-size: 18px;
+    .counter-card h1{
+        font-size: 20px;
     }
     *{
         font-size: 12px
@@ -85,15 +87,15 @@
 }
 
 @media screen and (max-width: 600px) {
-    .container-card h1{
-        font-size: 12px;
+    .counter-card h1{
+        font-size: 15px;
     }
     *{
-        font-size: 8px;
+        font-size: 10px;
     }
     .incre-btn,.decre-btn,.reset-btn{
-        width: 120px;
-        padding: 5px;
+        width: 130px;
+        padding: 8px;
         border-radius: 5px;
     }
     .counter{
