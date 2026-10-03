@@ -36,6 +36,9 @@
     font-size: 30px;
     color: #065F46;
 }
+.fa-solid.fa-house:hover{
+    color: #57d895;
+}
 .counter-card h1{
     color: #065F46;
     margin-top: 20px;
@@ -65,14 +68,24 @@
     color: #475569;
 }
 .incre-btn{
-    background-color: #0ba543;
+    background-color:rgb(7, 146, 7);
+}
+.incre-btn:hover{
+    background-color:  #047857;
 }
 .decre-btn{
     background-color: red;
 }
+.decre-btn:hover{
+    background-color: #BE123C;
+}
 .reset-btn{
     background-color: #475569;
 }
+.reset-btn:hover{
+    background-color:#334155;
+}
+
 @media screen and (max-width: 800px) {
     .counter-card h1{
         font-size: 20px;

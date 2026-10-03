@@ -33,6 +33,9 @@
     font-size: 30px;
     color: #065F46;
 }
+.fa-solid.fa-house:hover{
+    color: #57d895;
+}
 .random-card {
     width: 80%;
     height: 300px;
@@ -55,6 +58,10 @@
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+}
+.button:hover{
+    background-color: #059669;
+    color: white;
 }
 
 @media screen and (max-width: 800px) {

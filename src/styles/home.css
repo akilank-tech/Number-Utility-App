@@ -40,6 +40,9 @@
     font-size: 30px;
     color: #065F46;
 }
+.fa-solid.fa-house:hover{
+    color: #57d895;
+}
 .home-card h1 {
     margin-top: 30px;
     color:  #065F46;
@@ -62,17 +65,15 @@
     color: white;
     padding: 10px;
     width: 200px;
-}
-
-.link1 {
     background-color:  #D1FAE5;
     color: #065F46;
 }
-
-.link2 {
-    background-color:  #D1FAE5;
-    color: #065F46;
+.link1:hover,
+.link2:hover {
+    background-color: #059669;
+    color: white;
 }
+
 
 @media screen and (max-width: 800px) {
     .home-card h1{
